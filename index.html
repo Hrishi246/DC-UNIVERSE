@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="footer, address, phone, icons" />
+    <link rel="stylesheet" href="CSS files/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DC UNiverse</title>
+    <style>
+            body  {
+                
+                background-color:black;
+            }
+            </style>
+
+    
+    
+    
+</head>
+
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3 sticky-top">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">
+            <img src="img/img1.jpg" width="50" height="50" id="logo" alt=""><h3 class="d-inline align-middle">DC UNIVERSE</h3>
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Comics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Movies</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Characters</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Batman</a>
+                        <a href="#" class="dropdown-item">Superman</a>
+                        <a href="#" class="dropdown-item">Wonderwoman</a>
+                        <a href="#" class="dropdown-item">Aquaman</a>
+                        <a href="#" class="dropdown-item">Flash</a>
+                        <a href="#" class="dropdown-item">Green Lantern</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+            </ul>
+            
+            <form class="form-inline my-2 my-lg-0">
+                <input type="text" class="form-control mr-sm-2 col-md-4" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0">GO!</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<!--Two Top Buttons-->
+<div class="container height:20px">
+    <div class="row">
+        <div class="col-sm-6">
+            
+            <!-- MODAL TRIGGER -->
+            <button class="btn btn-primary btn-block mr-auto" data-toggle="modal" data-target="#myModal">
+                BE THE PART OF DC WORLD
+            </button>
+            <!-- MODAL -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Be the World-Comic Champion</h5>
+                            <button class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            The Dc World Championship of COMIC Is a One Day International competion 
+                            held at SAn Deigo Comic=con festival.The tournament was part of the celebrations commemorating the 150th Birth anniversary 
+                            of Bob Cane.Comic Book fans from all over the world take part in this exciting competion.
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <br><br>
+        </div>
+        
+        
+        
+        <div class="col-sm-6 mt-0">
+            
+            <button class="btn btn-success btn-block mr-auto col-md-12" data-toggle="modal" data-target="#loginModal">REGISTER HERE</button>
+            <!-- LOGIN MODAL -->
+            <div class="modal" id="loginModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Login</h5>
+                            <button class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" class="form-control form-control-sm" placeholder="Enter name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" id="email" class="form-control form-control-lg" placeholder="Enter email">
+                                    <small class="form-text text-muted">Your email will not be shared with anyone</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" id="password" class="form-control" placeholder="Password" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label for="gender">Gender</label>
+                                    <select id="gender" class="form-control">
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" rows="3" class="form-control"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="file">File input</label>
+                                    <input type="file" id="file" class="form-control-file">
+                                    <small id="fileHelp" class="form-text text-muted">Max 3mb size</small>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button class="btn btn-primary" data-dismiss="modal">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+
+<!-- Image Slider -->
+<div class="container mt-5" id="slider">
+    <div class="row">
+        <div class="col-sm-8 m-auto">
+            
+            <div id="slider4" class="carousel slide mb-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#slider4" data-slide-to="0"></li>
+                    <li data-target="#slider4" data-slide-to="1"></li>
+                    <li data-target="#slider4" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="img/img2.jpg" alt="First Slide" style="width: 100%">
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="img/img5.jpg" alt="Second Slide" style="width: 100%">
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="img/img4.jpg" alt="Third Slide" style="width: 100%">
+                        <div class="carousel-caption d-none d-md-block">
+                            
+                        </div>
+                    </div>
+                </div>
+                <a href="#slider4" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                
+                <a href="#slider4" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script>
+    $('.carousel').carousel({
+        interval:3000,
+        keyboard: true,
+        pause:'hover',
+        wrap:true
+    });
+    
+    $('#slider4').on('slide.bs.carousel', function(){
+        console.log('slide');
+    });
+    $('#slider4').on('slid.bs.carousel', function(){
+        console.log('slid');
+    });
+</script>
+
+
+
+<!--Card design-->
+<div class="card text-center" style="background-color:aliceblue" style="padding-bottom: 0px">
+    <div class="card-header">
+        Latest Updite
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">The classic Superhero is back with new ARROWS</h4>
+        <p class="card-text">In 2011, DC chose to relaunch its titles with new #1 issues and a refreshed continuity
+            and called this initiative The New 52. Green Arrow was one of 52 titles included in this. In the
+            post-Flashpoint continuity, Oliver Queen is Green Arrow and he balances his own breaking of laws
+            with his efforts to bring outlaws to justice across the globe. In the new continuity, Queen runs
+            Q-Core, a communications technology company that is part of Queen Industries, through which he funds
+            and armors himself as Green Arrow.</p>
+            <a href="#" class="btn btn-danger">Read More</a>
+        </div>
+        <div class="card-footer text-muted">
+            2 Days Ago
+        </div>
+    </div>
+    
+    <br><br>
+    
+    <!--Gallery-->
+    <section id="gallery"  style="background-color:black">
+        <div class="container superehero  text-center">
+            <h1 style="color: white";"font-size:60px";"mb-10">Check out your favorite Superhero</h1>
+            
+            <div class="row">
+                <div class="card col-md-4 col-sm-6">
+                    <div class="card">
+                        <a> <img class="card-img-top" src="/img/gal1.jpeg" alt="Card image" style="width:100%"></a>
+                        <div class="card-body";style>
+                            <h4 class="card-title mt-0">Flash</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card col-md-4 col-sm-6 ">
+                    <div class="card">
+                        <a><img class="card-img-top" src="/img/gal2.jpg" alt="Card image" style="width:100%"></a>
+                        <div class="card-body">
+                            <h4 class="card-title mt-0">Aquaman</h4>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="card col-md-4 col-sm-6 ">
+                    <div class="card">
+                        <a><img class="card-img-top" src="/img/gal3.jpg" alt="Card image" style="width:100%"></a>
+                        <div class="card-body">
+                            <h4 class="card-title mt-0">Greenlantern</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+            <div class="row mt-5">
+                <div class="card col-md-4 col-sm-6 ">
+                    <div class="card">
+                        <a><img class="card-img-top" src="/img/gal4.jpg" alt="Card image" style="width:100%"></a>
+                        <div class="card-body">
+                            <h4 class="card-title mt-0">Robin</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card col-md-4 col-sm-6 ">
+                    <div class="card">
+                        <a><img class="card-img-top" src="/img/gal5.jpg" alt="Card image" style="width:100%"></a>
+                        <div class="card-body">
+                            <h4 class="card-title mt-0">Catwoman</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="card col-md-4 col-sm-6 ">
+                    <div class="card">
+                        <a><img class="card-img-top" src="/img/gal6.jpg" alt="Card image" style="width:100%"></a>
+                        <div class="card-body">
+                            <h4 class="card-title mt-0">Hawkgirl</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <div class="row mt-5">
+                <div class="card col-md-4 col-sm-6 ">
+                    <div class="card">
+                        <a><img class="card-img-top" src="/img/gal7.jpg" alt="Card image" style="width:100%"></a>
+                        <div class="card-body">
+                            <h4 class="card-title mt-0">Shazam</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card col-md-4 col-sm-6 ">
+                    <div class="card" >
+                        <a><img class="card-img-top" src="/img/gal8.jpeg" alt="Card image" style="width:100%"></a>
+                        <div class="card-body">
+                            <h4 class="card-title mt-0">Deathstroke</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="card col-md-4 col-sm-6 ">
+                    <div class="card">
+                        <a><img class="card-img-top" src="/img/gal9.jpg" alt="Card image" style="width:100%"></a>
+                        <div class="card-body">
+                            <h4 class="card-title mt-0">Supergirl</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            
+        </div>
+    </section>
+
+    <section class="container">
+     <nav class="row justify-content"
+
+
+
+
+    
+    
+    
+
+
+    
+    
+  
+    
+    <!--Footer-->
+    <footer class="footer-distributed" style="background-color:black">
+        
+        <div class="footer-left">
+            
+            <a href="index.html" class="footer-company-name">
+                <img src="img/img1.jpg" width="50" height="50" alt=""><h3 class="d-inline align-middle" style="font-family:sans-serif" style="font-size: 35px"> DC UNIVERSE</h3>
+            </a>
+            
+            <p class="footer-links" style="padding-right: 10px">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Blog</a>
+                ·
+                <a href="#">About</a>
+                · 
+                <a href="#">FAQ</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+            
+            
+        </div>
+        
+        <div class="footer-center">
+            
+            <div>
+                <i class="fa fa-map-marker" style="color: white"></i>
+                <p><span>Beale Street</span> New-york, USA</p>
+            </div>
+            
+            <div>
+                <i class="fa fa-phone" style="color: white"></i>
+                <p>+1 555 123456</p>
+            </div>
+            
+            <div>
+                <i class="fa fa-envelope" style="color: white"></i>
+                <p><a href="mailto:support@company.com">support@dc_universe.com</a></p>
+            </div>
+            
+        </div>
+        
+        <div class="footer-right">
+            
+            <p class="footer-company-about">
+                <span>About the company</span>
+                DC Comics, Inc. is an American comic book publisher. It is the publishing unit of DC Entertainment, 
+                a subsidiary of Warner Bros. DC Comics is one of the largest and oldest American comic book companies,
+            </p>
+            
+            <div class="footer-icons">
+                
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+                
+            </div>
+            
+        </div>
+        
+    </footer>
+    
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
